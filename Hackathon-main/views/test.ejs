@@ -1,0 +1,114 @@
+<%- include('partials/test_header') %>
+<main class="desktop-1">
+    <div class="desktop-1-inner"><div class="component-child"></div></div>
+    <div class="desktop-1-child" id="all"></div>
+    <div class="rectangle-div"><div class="component-item"></div></div>
+    <p class="lesson-6">Test 1</p>
+    <div class="desktop-1-inner1"><div class="component-inner"></div></div>
+    <div class="desktop-1-item"></div>
+    <img
+      class="help-fill0-wght400-grad0-opsz4-icon"
+      alt=""
+      src="./images/help-fill0-wght400-grad0-opsz48-1.svg"
+    /><img
+      class="clock-loader-80-fill0-wght400-icon"
+      alt=""
+      src="./images/clock-loader-80-fill0-wght400-grad0-opsz48-1.svg"
+    />
+    <div class="desktop-1-inner2"><div class="component-child1"></div></div>
+    <button class="rectangle-button"></button>
+    <div class="lesson">Lesson</div>
+    <button class="desktop-1-child1"></button>
+    <div class="test">Test</div>
+    <button class="desktop-1-child2"></button>
+    <div class="task">Task</div>
+    <div class="rectangle-parent">
+      <div class="group-child"></div>
+      <div class="task1">Task</div>
+    </div>
+    <button class="desktop-1-child3"></button>
+    <div class="materials">Materials</div>
+    <img class="polygon-icon" alt="" src="./images/polygon-1.svg" /><img
+      class="ellipse-icon"
+      alt=""
+      src="./images/ellipse-1.svg"
+    /><img class="desktop-1-child4" alt="" src="./images/ellipse-1.svg" />
+    <div class="line-div"></div>
+    <div class="desktop-1-child5"></div>
+    <div class="desktop-1-child6"></div>
+    <div class="desktop-1-child7"></div>
+    <img class="rectangle-icon" alt="" src="./images/rectangle-8.svg" />
+    <div class="desktop-1-child8"></div>
+    <img
+      class="desktop-1-child9"
+      alt=""
+      src="./images/rectangle-10.svg"
+    /><img
+      class="desktop-1-child10"
+      alt=""
+      src="./images/rectangle-11.svg"
+    /><img
+      class="desktop-1-child11"
+      alt=""
+      src="./images/ellipse-3.svg"
+    /><img
+      class="desktop-1-child12"
+      alt=""
+      src="./images/polygon-2.svg"
+    /><img
+      class="star-icon"
+      alt=""
+      src="./images/star-1.svg"
+      data-animate-on-scroll
+    />
+    <p class="min">5 min</p>
+    <p class="questions">3 questions</p>
+    <div class="points">3 points</div>
+    <img
+      class="local-activity-fill0-wght400-g-icon"
+      alt=""
+      src="./images/local-activity-fill0-wght400-grad0-opsz48-1.svg"
+    /><button class="menu-fill0-wght400-grad0-opsz4">
+      <img class="vector-icon" alt="" src="./images/vector.svg" />
+    </button>
+    <nav class="rectangle-nav"></nav>
+    <strong class="main-video-container"
+      ><span>Main &gt; Video demo &gt; All Lessons</span
+      ></strong
+    ><button class="chat-bubble-fill0-wght400-grad">
+      <img class="vector-icon1" alt="" src="./images/vector1.svg" /></button
+    ><button class="notifications-active-fill0-wgh">
+      <img class="vector-icon2" alt="" src="./images/vector2.svg" /></button
+    ><button class="manage-accounts-fill0-wght400-">
+      <img class="vector-icon3" alt="" src="./images/vector3.svg" />
+    </button>
+    <p class="p">
+      <span class="span">0</span><span> </span><span>/ 20</span>
+    </p>
+    <button class="desktop-1-child13"></button
+    ><a href="/index"><button class="pass-the-test">Take the test</button></a>
+    <strong class="points1">Points :</strong>
+  </main>
+
+  <script>
+    var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+    var observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            const targetElement = entry.target;
+            targetElement.classList.add("animate");
+            observer.unobserve(targetElement);
+          }
+        }
+      },
+      {
+        threshold: 0.15,
+      }
+    );
+    
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+      observer.observe(scrollAnimElements[i]);
+    }
+    </script>
+    <%- include('partials/footer') %>

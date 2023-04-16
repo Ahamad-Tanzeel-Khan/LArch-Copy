@@ -1,0 +1,172 @@
+.desktop-1-child {
+  position: absolute;
+  top: 59px;
+  left: 62px;
+  border-radius: 51px;
+  background-color: var(--color-white);
+  width: 1420px;
+  height: 883px;
+}
+.smart-online-test {
+  margin: 0;
+  position: absolute;
+  top: 104px;
+  left: 542px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 459px;
+  height: 51px;
+}
+.video-chat {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.discussion {
+  margin: 0;
+}
+.video-chat-container {
+  margin: 0;
+  position: absolute;
+  top: 352px;
+  left: 153px;
+  font-size: 53px;
+  font-weight: 700;
+  font-family: inherit;
+  color: #2b2f62;
+  display: inline-block;
+  width: 335px;
+  height: 154px;
+}
+.desktop-1-item {
+  position: absolute;
+  top: 845px;
+  left: 0;
+  width: 94px;
+  height: 177px;
+}
+.desktop-1-inner,
+.ellipse-icon {
+  position: absolute;
+  top: 749px;
+  left: 9px;
+  width: 153px;
+  height: 283px;
+}
+.ellipse-icon {
+  top: 807px;
+  left: 28px;
+  width: 241px;
+  height: 223px;
+}
+.desktop-1-child1 {
+  position: absolute;
+  top: 947.85px;
+  left: 90.05px;
+  width: 167.83px;
+  height: 96.15px;
+}
+.desktop-1-child2,
+.icon {
+  position: absolute;
+  top: 796px;
+  left: 66px;
+  width: 143px;
+  height: 244px;
+}
+.icon {
+  top: 189px;
+  left: 542px;
+  width: 940px;
+  height: 753px;
+  object-fit: cover;
+}
+.embed-high-quality-real-time {
+  margin: 0;
+  position: absolute;
+  top: 506px;
+  left: 150px;
+  font-size: 22px;
+  color: #000;
+  display: inline-block;
+  width: 540px;
+  height: 129px;
+}
+.desktop-1-child3 {
+  position: absolute;
+  top: 547.74px;
+  left: 1327.5px;
+  width: 146.56px;
+  height: 286.69px;
+}
+.desktop-1-child4 {
+  position: absolute;
+  top: 581.23px;
+  left: 1324.92px;
+  width: 237.08px;
+  height: 249.77px;
+}
+.desktop-1-child5 {
+  position: absolute;
+  top: 709px;
+  left: 1359px;
+  width: 167.06px;
+  height: 124.85px;
+}
+#rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #0068fc;
+  position: absolute;
+  top: 650px;
+  left: 303px;
+  border-radius: 505px;
+  width: 387px;
+  height: 99px;
+}
+.desktop-1,
+.start-meeting {
+  text-align: left;
+  font-family: var(--font-inter);
+}
+.start-meeting {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 675px;
+  left: 358px;
+  font-size: 41px;
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 276px;
+  height: 49px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: #440182;
+  width: 100%;
+  height: 1012px;
+  overflow: hidden;
+  font-size: 37px;
+  color: #282f61;
+}
+.btn{
+  position: absolute;
+width: 276px;
+height: 49px;
+left: 250px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 41px;
+line-height: 50px;
+
+color: #FFFFFF;
+}

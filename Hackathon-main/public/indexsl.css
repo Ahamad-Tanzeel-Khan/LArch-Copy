@@ -1,0 +1,291 @@
+.desktop-1-child {
+    position: absolute;
+    top: 0;
+    left: 835px;
+    width: 872px;
+    height: 1259px;
+  }
+  .desktop-1-inner,
+  .desktop-1-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1135px;
+    height: 1044px;
+  }
+  .desktop-1-inner {
+    top: 299px;
+    left: 953px;
+    border-radius: 58px;
+    background-color: var(--color-white);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3) inset,
+      6px 9px 4px rgba(0, 0, 0, 0.3);
+    width: 518px;
+    height: 539px;
+  }
+  .desktop-1-child1,
+  .rectangle-icon {
+    position: absolute;
+    top: 299px;
+    left: 877px;
+    width: 76px;
+    height: 71px;
+  }
+  .desktop-1-child1 {
+    left: 1471px;
+    width: 93px;
+    height: 70px;
+  }
+  .desktop-1-child2,
+  .ellipse-icon {
+    position: absolute;
+    top: 280px;
+    left: 939px;
+    width: 556px;
+    height: 79px;
+  }
+  .ellipse-icon {
+    top: 202px;
+    left: 1077px;
+    width: 273px;
+    height: 244px;
+    object-fit: cover;
+  }
+  .log-in {
+    position: absolute;
+    top: 450px;
+    left: 1127px;
+    font-size: 54px;
+    color: #4966ad;
+    display: inline-block;
+    width: 170px;
+    height: 60px;
+  }
+  .rectangle-input {
+    background-color: var(--color-lightsteelblue);
+    top: 566px;
+    left: 988px;
+    border-radius: var(--br-6xl);
+    width: 437px;
+  }
+  .desktop-1-child3,
+  .rectangle-button,
+  .rectangle-input {
+    border: 0;
+    position: absolute;
+    height: 57px;
+  }
+  .desktop-1-child3 {
+    background-color: var(--color-lightsteelblue);
+    top: 652px;
+    left: 988px;
+    border-radius: var(--br-6xl);
+    width: 437px;
+  }
+  .rectangle-button {
+    cursor: pointer;
+    padding: 0;
+    background-color: #e26040;
+    top: 807px;
+    left: 1079px;
+    border-radius: var(--br-mini);
+    box-shadow: 2px 9px 4px rgba(0, 0, 0, 0.3);
+    width: 275px;
+  }
+  .lock-black-24dp-1-icon {
+    position: absolute;
+    top: 658px;
+    left: 1020px;
+    width: 56px;
+    height: 45px;
+    overflow: hidden;
+  }
+  .log-in1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 817px;
+    left: 1164px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 106px;
+    height: 38px;
+  }
+  .face-modified-1-icon {
+    position: absolute;
+    top: 218px;
+    left: 1099px;
+    width: 225px;
+    height: 202px;
+  }
+  .email-black-24dp-1-icon,
+  .vector-icon {
+    position: absolute;
+    top: 550px;
+    left: 1009px;
+    width: 46px;
+    height: 40px;
+    overflow: hidden;
+  }
+  .vector-icon {
+    height: 2.55%;
+    width: 2.48%;
+    top: 55.65%;
+    right: 29.56%;
+    bottom: 41.79%;
+    left: 67.96%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .line-div {
+    position: absolute;
+    top: -17.5px;
+    left: -17.5px;
+    border-right: 35px solid #a098ff;
+    box-sizing: border-box;
+    width: 35px;
+    height: 1079px;
+  }
+  .e-mail-address,
+  .password {
+    margin: 0;
+    position: absolute;
+    top: 583px;
+    left: 1060px;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+    display: inline-block;
+    width: 152px;
+    height: 25px;
+  }
+  .password {
+    top: 668px;
+    width: 99px;
+    height: 23px;
+  }
+  .file-2023-04-15-1234-1-icon {
+    position: absolute;
+    top: 104px;
+    left: 28px;
+    width: 960px;
+    height: 915px;
+  }
+  .desktop-1-child4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #00a3ff;
+    position: absolute;
+    top: 928px;
+    left: 1080px;
+    border-radius: var(--br-mini);
+    box-shadow: 2px 9px 4px rgba(0, 0, 0, 0.3);
+    width: 275px;
+    height: 57px;
+  }
+  .log-in-with {
+    position: absolute;
+    top: 941px;
+    left: 1128px;
+    font-size: 23px;
+    color: var(--color-white);
+    display: inline-block;
+    width: 205px;
+    height: 31px;
+  }
+  .component-1-icon,
+  .or-connect-with {
+    position: absolute;
+    top: 943px;
+    left: 1096.33px;
+    width: 23.33px;
+    height: 25.5px;
+  }
+  .or-connect-with {
+    margin: 0;
+    top: 888px;
+    left: 1141px;
+    font-size: 18px;
+    display: inline-block;
+    width: 157px;
+    height: 29px;
+  }
+  .desktop-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1044px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-lightsteelblue: #aac7e9;
+  
+    /* border radiuses */
+    --br-mini: 15px;
+    --br-6xl: 25px;
+  }
+
+  #reg{
+    position: absolute;
+    color: black;
+    bottom: 2%;
+    right: 14%;
+  }
+
+  #pass{
+    position: absolute;
+    right: 15%;
+  }
+  #email{
+    z-index: 5;
+    transform: perspective(500px) translateZ(200px);
+    position: absolute;
+    background-color : #aac7e9;
+    border-color: #aac7e9;
+    border-style: none;
+    bottom: 42%;
+    height: 20px;
+    width: 12%;
+    right: 12%;
+    outline: none;
+
+  }
+
+  #password{
+    z-index: 5;
+    transform: perspective(500px) translateZ(200px);
+    position: absolute;
+    background-color : #aac7e9;
+    border-color: #aac7e9;
+    border-style: none;
+    bottom: 33.5%;
+    height: 20px;
+    width: 12%;
+    right: 12%;
+    outline: none;
+  }

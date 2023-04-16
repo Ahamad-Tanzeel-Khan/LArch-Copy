@@ -1,0 +1,261 @@
+.desktop-1-child,
+.desktop-1-item {
+  position: absolute;
+  top: 658.63px;
+  left: 0;
+  width: 415.08px;
+  height: 407.37px;
+}
+.desktop-1-item {
+  top: 0;
+  left: 677px;
+  width: 1038px;
+  height: 1091px;
+}
+.desktop-1-inner,
+.teacher-removebg-preview-1-icon {
+  position: absolute;
+  top: 188px;
+  left: 543px;
+  width: 1021px;
+  height: 782px;
+}
+.desktop-1-inner {
+  top: 252px;
+  left: 68px;
+  border-radius: 58px;
+  background-color: var(--color-white);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3) inset,
+    6px 9px 4px rgba(0, 0, 0, 0.3);
+  width: 518px;
+  height: 539px;
+}
+.log-in {
+  margin: 0;
+  position: absolute;
+  top: 403px;
+  left: 242px;
+  font-size: 54px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #4966ad;
+  display: inline-block;
+  width: 169px;
+  height: 68px;
+}
+.desktop-1-child1,
+.rectangle-input {
+  border: 0;
+  background-color: var(--color-lightsteelblue);
+  position: absolute;
+  top: 504px;
+  left: 106px;
+  border-radius: var(--br-6xl);
+  width: 437px;
+  height: 57px;
+}
+.desktop-1-child1 {
+  top: 602px;
+}
+.desktop-1-child2,
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #e26040;
+  position: absolute;
+  top: 760px;
+  left: 194px;
+  border-radius: var(--br-mini);
+  box-shadow: 2px 9px 4px rgba(0, 0, 0, 0.3);
+  width: 275px;
+  height: 57px;
+}
+.desktop-1-child2 {
+  background-color: #28afcc;
+  top: 894px;
+}
+.lock-black-24dp-1-icon {
+  position: absolute;
+  top: 608px;
+  left: 122px;
+  width: 56px;
+  height: 45px;
+  overflow: hidden;
+}
+.log-in1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 770px;
+  left: 279px;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 106px;
+  height: 38px;
+}
+.email-black-24dp-1-icon {
+  position: absolute;
+  top: 513px;
+  left: 129px;
+  width: 46px;
+  height: 40px;
+  overflow: hidden;
+}
+.desktop-1-child3,
+.rectangle-icon {
+  position: absolute;
+  top: 246px;
+  left: 0;
+  width: 66px;
+  height: 71px;
+}
+.desktop-1-child3 {
+  left: 584px;
+  width: 93px;
+  height: 70px;
+}
+.desktop-1-child4,
+.e-mail-address {
+  position: absolute;
+  top: 227px;
+  left: 52px;
+  width: 556px;
+  height: 79px;
+}
+.e-mail-address {
+  margin: 0;
+  top: 521px;
+  left: 178px;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 152px;
+  height: 25px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 127px;
+  left: 198px;
+  width: 273px;
+  height: 244px;
+  object-fit: cover;
+}
+.password {
+  margin: 0;
+  position: absolute;
+  top: 618px;
+  left: 178px;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 99px;
+  height: 23px;
+}
+.male-removebg-preview-1-icon {
+  position: absolute;
+  top: 104px;
+  left: 197px;
+  width: 293px;
+  height: 269px;
+}
+.log-in-with,
+.or-connect-with {
+  margin: 0;
+  position: absolute;
+  top: 847px;
+  left: 257px;
+  font-size: 18px;
+  display: inline-block;
+  width: 151px;
+  height: 24px;
+}
+.log-in-with {
+  top: 907px;
+  left: 243px;
+  font-size: 23px;
+  color: var(--color-white);
+  width: 205px;
+  height: 31px;
+}
+.icons8-google-1 {
+  position: absolute;
+  top: 907px;
+  left: 209px;
+  width: 28px;
+  height: 30px;
+  overflow: hidden;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1066px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-lightsteelblue: #aac7e9;
+  
+    /* border radiuses */
+    --br-mini: 15px;
+    --br-6xl: 25px;
+  }
+
+  #reg{
+    position: absolute;
+    color: black;
+    bottom: 7%;
+    left: 16%;
+  }
+
+  #email{
+    position: absolute;
+    background-color : #aac7e9;
+    border-color: #aac7e9;
+    border-style: none;
+    bottom: 48%;
+    height: 40px;
+    width: 20%;
+    left: 12%;
+    outline: none;
+
+  }
+
+  #password{
+    position: absolute;
+    background-color : #aac7e9;
+    border-color: #aac7e9;
+    border-style: none;
+    bottom: 38.5%;
+    height: 40px;
+    width: 20%;
+    left: 12%;
+    outline: none;
+
+  }

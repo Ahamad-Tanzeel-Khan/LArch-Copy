@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+<div class="container">
+    <div class="section1">
+        <h1>Welcome to Online Test</h1><br>
+        <h4>Sign in</h4><br>    
+        <form action="/login" method="post">
+            <div class="formGroup">
+                <p><label for="email">Email</label></p>
+                <input type="email" id="email" name="username" required >
+            </div>
+            <div>
+                <p><label for="userNmae">Password</label></p>
+                <input type="password" name="password" id="password" required >
+            </div>
+            <button type="submit" id="btn">Sign in Now</button>
+            <p class="already">Not a register user? <a href="/register">Sign Up</a></p>
+        </form>
+        <div class="line"></div>  
+        <div class="socialIcons">
+           <h6><strong>Or connect with - </strong></h6>
+        </div>
+        <div class="cardIn social-block">
+            <div class="card-body">
+              <a class="btn btn-block btn-social btn-google btn-login" href="/auth/google" role="button">
+                <i class="fab fa-google"></i>
+                Sign In with Google
+              </a>
+            </div>
+          </div>
+    </div>
+</div>
+<%- include('partials/footer') %>

@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  margin: 0;
+  line-height: normal;
+  background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* Colors */
+  --color-white: #fff;
+}
